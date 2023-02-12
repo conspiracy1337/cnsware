@@ -2,6 +2,11 @@
 
 INSTALLATION GUIDE:
 
+METHOD 1 - EXE FILE
+1. Download [cnsware.exe](https://github.com/conspiracy1337/cnsware/releases/download/v7.27/cnsware.exe)
+2. Run the EXE
+
+METHOD 2 - JAR FILE
 1. Install [Java](https://www.java.com/download/ie_manual.jsp) if you haven't already
 2. Download [cnsware.jar](https://github.com/conspiracy1337/cnsware/releases/download/v7.27/cnsware.jar)
 3. Run cnsware.jar with Java(TM) Platform SE binary
