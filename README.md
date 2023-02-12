@@ -3,7 +3,7 @@
 INSTALLATION GUIDE:
 
 1. Install [Java](https://www.java.com/download/ie_manual.jsp) if you haven't already
-2. Download [cnsware.jar](https://github.com/conspiracy1337/cnsware/releases/download/Cheat/cnsware.jar)
+2. Download [cnsware.jar](https://github.com/conspiracy1337/cnsware/releases/download/v7.27/cnsware.jar)
 3. Run cnsware.jar with Java(TM) Platform SE binary
 
 CHEAT MENU FOR VALORANT AND CS:GO
