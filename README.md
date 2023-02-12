@@ -1,6 +1,6 @@
 # **cnsware**
 
-INSTALLATION GUIDE:
+### INSTALLATION GUIDE
 
 METHOD 1 - EXE FILE
 1. Download [cnsware.exe](https://github.com/conspiracy1337/cnsware/releases/download/v7.27/cnsware.exe)
