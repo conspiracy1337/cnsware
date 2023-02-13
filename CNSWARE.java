@@ -31,7 +31,7 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import javax.swing.SwingConstants;
 
-public class FPSCheatLoader extends AudioPlayer {
+public class CNSWARE extends AudioPlayer {
 
 	private JFrame frmCN;
 	private String fovvalue = "103";
@@ -51,7 +51,7 @@ public class FPSCheatLoader extends AudioPlayer {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					FPSCheatLoader window = new FPSCheatLoader();
+					CNSWARE window = new CNSWARE();
 					window.frmCN.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -60,14 +60,14 @@ public class FPSCheatLoader extends AudioPlayer {
 		});
 	}
 
-	public FPSCheatLoader() {
+	public CNSWARE() {
 		initialize();
 
 	}
 
 	private void initialize() {
 		frmCN = new JFrame();
-		frmCN.setIconImage(Toolkit.getDefaultToolkit().getImage(FPSCheatLoader.class.getResource("/CheatLoader/icon.png")));
+		frmCN.setIconImage(Toolkit.getDefaultToolkit().getImage(CNSWARE.class.getResource("/CheatLoader/icon.png")));
 		frmCN.setResizable(false);
 		frmCN.setTitle(				"- c n s w a r e -                                                     version 7.27alpha by conspiracy");
 		frmCN.getContentPane().setBackground(new Color(0, 0, 0));
