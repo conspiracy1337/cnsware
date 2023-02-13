@@ -93,7 +93,6 @@ public class CNSWARE extends AudioPlayer {
 		JLabel headline = new JLabel("c n s w a r e");
 		headline.setHorizontalAlignment(SwingConstants.CENTER);
 		headline.setForeground(new Color(255, 255, 255));
-		// headline.setForeground(new Color(255, 255, 255));
 		headline.setFont(new Font("Malgun Gothic", Font.PLAIN, 67));
 		headline.setBounds(10, 0, 691, 60);
 		frmCN.getContentPane().add(headline);
@@ -126,7 +125,6 @@ public class CNSWARE extends AudioPlayer {
 					try {
 						AudioPlayer.playButton();
 					} catch (UnsupportedAudioFileException | IOException | LineUnavailableException e1) {
-						// TODO Auto-generated catch block
 						e1.printStackTrace();
 					}
 					if (panelslocked == true) {
@@ -186,7 +184,6 @@ public class CNSWARE extends AudioPlayer {
 					try {
 						AudioPlayer.playButton();
 					} catch (UnsupportedAudioFileException | IOException | LineUnavailableException e1) {
-						// TODO Auto-generated catch block
 						e1.printStackTrace();
 					}
 					if (panelslocked == true) {
@@ -253,7 +250,6 @@ public class CNSWARE extends AudioPlayer {
 					try {
 						AudioPlayer.playButton();
 					} catch (UnsupportedAudioFileException | IOException | LineUnavailableException e1) {
-						// TODO Auto-generated catch block
 						e1.printStackTrace();
 					}
 					if (panelslocked == true) {
@@ -312,7 +308,6 @@ public class CNSWARE extends AudioPlayer {
 					try {
 						AudioPlayer.playButton();
 					} catch (UnsupportedAudioFileException | IOException | LineUnavailableException e1) {
-						// TODO Auto-generated catch block
 						e1.printStackTrace();
 					}
 					if (panelslocked == true) {
@@ -357,7 +352,6 @@ public class CNSWARE extends AudioPlayer {
 					try {
 						AudioPlayer.playButton();
 					} catch (UnsupportedAudioFileException | IOException | LineUnavailableException e1) {
-						// TODO Auto-generated catch block
 						e1.printStackTrace();
 					}
 					if (panelslocked == true) {
@@ -413,7 +407,6 @@ public class CNSWARE extends AudioPlayer {
 					try {
 						AudioPlayer.playButton();
 					} catch (UnsupportedAudioFileException | IOException | LineUnavailableException e1) {
-						// TODO Auto-generated catch block
 						e1.printStackTrace();
 					}
 					if (panelslocked == true) {
@@ -469,7 +462,6 @@ public class CNSWARE extends AudioPlayer {
 					try {
 						AudioPlayer.playButton();
 					} catch (UnsupportedAudioFileException | IOException | LineUnavailableException e1) {
-						// TODO Auto-generated catch block
 						e1.printStackTrace();
 					}
 					if (panelslocked == true) {
@@ -539,7 +531,6 @@ public class CNSWARE extends AudioPlayer {
 					try {
 						AudioPlayer.playInject();
 					} catch (UnsupportedAudioFileException | IOException | LineUnavailableException e1) {
-						// TODO Auto-generated catch block
 						e1.printStackTrace();
 					}
 					log.setText("\n    - CHEAT INJECTION STARTED -");
@@ -623,7 +614,6 @@ public class CNSWARE extends AudioPlayer {
 						try {
 							AudioPlayer.playInjected();
 						} catch (UnsupportedAudioFileException | IOException | LineUnavailableException e1) {
-							// TODO Auto-generated catch block
 							e1.printStackTrace();
 						}
 						log.setText("\n    - CHEAT INJECTED SUCCESSFULLY -");
